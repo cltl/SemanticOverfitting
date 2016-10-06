@@ -10,7 +10,7 @@ This module was written in Python 3. After cloning this repository, the only
 external dependency is [Anaconda](https://www.continuum.io/downloads).
 
 ## USAGE
-Please visit [**Demo.ipynb**](https://github.com/MartenPostma/SemanticOverfitting/blob/master/scripts/Demo.ipynb)
+Please visit [**Demo.ipynb**](https://github.com/cltl/SemanticOverfitting/blob/master/scripts/Demo.ipynb)
 for an example of the analyses of the datasets.
 
 ## CONTACT
