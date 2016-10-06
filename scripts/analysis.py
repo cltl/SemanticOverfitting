@@ -13,6 +13,7 @@ class Analysis:
         self.moa = metrics.MOA(self.o_l)
         self.moda = metrics.MODA(self.amb_dominance)
         self.emnle = metrics.EMNLE(self.amb_dominance)
+        self.dtr = metrics.DTR(self.dates)
 
         self.rora = 0.0
         if self.ra:
@@ -49,7 +50,7 @@ class Analysis:
         m2le = defaultdict(list)
         self.ra = {}
         self.rv = {}
-
+        self.dates=set()
         with open('../datasets/' + corpus_path) as infile:
             for line in infile:
 
@@ -58,7 +59,8 @@ class Analysis:
                 except ValueError:
                     continue
 
-
+                if dct.strip() not in {'NONE', 'None', ''}:
+                    self.dates.add(dct)
                 if r_amb not in {'NONE', 'None'}:
                     r_amb = int(r_amb)
                     self.ra[le] = r_amb

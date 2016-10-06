@@ -22,6 +22,6 @@ for an example of the analyses of the datasets.
 ***
 
 * Filip Ilievski
-* filip.dbrsk@gmail.com
+* f.ilievski@vu.nl
 * http://ilievski.nl/
 * Vrije Universiteit Amsterdam

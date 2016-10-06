@@ -333,5 +333,7 @@ def DTR(dates):
     :rtype: list
     :return: list of two datetime values, denoting the earliest and the latest document publishing date
     '''
+    if not len(dates):
+        return []
     dates_in_format =[datetime.datetime.strptime(date, "%Y-%m-%d") for date in dates]
     return [min(dates_in_format), max(dates_in_format)]
