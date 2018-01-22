@@ -2,7 +2,7 @@
 
 This module provides an [IPython Notebook](http://ipython.org/notebook.html)
 to analyze existing disambiguation with respect to metrics elaborated on
-in the [COLING 2016](http://coling2016.anlp.jp/) paper called: **Semantic overfitting: what `world' do we consider when evaluating disambiguation of text?" (TO APPEAR).**
+in the [COLING 2016](http://coling2016.anlp.jp/) paper called: [**Semantic overfitting: what `world' do we consider when evaluating disambiguation of text?"**](http://aclweb.org/anthology/C16-1112)
 
 
 ## INSTALL
