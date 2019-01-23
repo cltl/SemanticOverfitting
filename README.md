@@ -13,6 +13,16 @@ external dependency is [Anaconda](https://www.continuum.io/downloads).
 Please visit [**Demo.ipynb**](https://github.com/cltl/SemanticOverfitting/blob/master/scripts/Demo.ipynb)
 for an example of the analyses of the datasets.
 
+### File format
+In **datasets**, you find the datasets in the format that we use.
+Each row contains six fields:
+1. identifier
+2. lexical expression
+3. meaning
+4. document creation time
+5. resource ambiguity
+6. resource variance
+
 ## CONTACT
 * Marten Postma
 * m.c.postma@vu.nl
